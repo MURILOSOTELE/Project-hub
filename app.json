@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "projecthub---terminado---falta-style---2-",
+    "slug": "snack-63967204-e9ab-4e73-9cd4-d585354ffc71",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Usamos sua localização para preencher automaticamente a cidade nos projetos e no perfil.",
+        "NSPhotoLibraryUsageDescription": "Usamos sua galeria para você escolher sua foto de perfil."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Usamos sua localização para preencher automaticamente a cidade nos projetos e no perfil."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Usamos sua galeria para você escolher sua foto de perfil."
+        }
+      ]
+    ]
+  }
+}
